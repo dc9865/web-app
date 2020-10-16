@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/ Add padding to containers /
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+
+select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text],input[type=email],input[type=number],input[type=tel],input[type=date]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+   background-color: #ddd;
+   outline: none;
+ }
+
+
+/ Overwrite default styles of hr /
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.button {
+  width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn {
+  	border: none;
+  	color: white;
+  	padding: 14px 28px;
+  	font-size: 16px;
+  	cursor: pointer;
+    }
+
+	.register {background-color: #4CAF50;} / Green /
+	.register:hover {background-color: #46a049;}
+
+	.textBox {
+	 background-color: none;
+ 	 border-style: dashed;
+ 	 color: black;
+ 	 padding: 15px 32px;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+ 	 font-size: 16px;
+	 margin: 4px 2px;
+	}
+	.text {;}
+
+	div.relative {
+  	  position: relative;
+  	  bottom: 620px;
+  	  left: 600px;
+	}
+	div.relative1 {
+  	  position: relative;
+  	  left: 400px;
+    }
